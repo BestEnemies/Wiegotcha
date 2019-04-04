@@ -18,8 +18,8 @@
 #include <unistd.h>
 #include <memory.h>
 
-#define D0_PIN 0
-#define D1_PIN 1
+#define D0_PIN 13
+#define D1_PIN 14
 
 #define WIEGANDMAXDATA 100
 #define WIEGANDTIMEOUT 5000000

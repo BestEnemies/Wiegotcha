@@ -124,9 +124,9 @@ cd ~/
 #Probably need to mod /etc/modules
 echo "[*] Copying config files"
 cd ./Wiegotcha/
-cp ./confs/dhcpd.conf /etc/dhcp/
-cp ./confs/hostapd.conf /etc/hostapd/
-cp ./confs/interfaces /etc/network/
+#cp ./confs/dhcpd.conf /etc/dhcp/
+#cp ./confs/hostapd.conf /etc/hostapd/
+#cp ./confs/interfaces /etc/network/
 cp -R ./html/* /var/www/html/
 cp ./confs/rctmp.local /etc/rc.local
 cp ./laststep.sh ../
